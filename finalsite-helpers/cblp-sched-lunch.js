@@ -16,10 +16,10 @@ var schedulesReady = false;
 var lunchesReady = false;
 var lunchesData = null;
 
-var schedDataUrl = "https://script.google.com/macros/s/AKfycbwNcl6DD2ioQidiBaQg4gJ2NDjUNLjCKlv6maVXmg5WgnaUgKkevgJmJXM4Z2qIhCbR/exec";
+var schedDataUrl = "https://script.google.com/macros/s/AKfycbzcJS4--QNpIWHkjV6BPfng0SBhouip7RVV8tBGDN47TFDiBRV7yMO3M88ahPNp3-E/exec";
 schedDataUrl += "?type=schedule&start="+todayStr+"&end="+twoWeeksStr;
 
-var lunchDataUrl = "https://script.google.com/macros/s/AKfycbwIfH0OUuUPFdfXIaPiMpUD6BeDf4R6Z36OhPfc3BVHYRuNIAFB8FtLEVOnZ4629grD/exec";
+var lunchDataUrl = "https://script.google.com/macros/s/AKfycbzcJS4--QNpIWHkjV6BPfng0SBhouip7RVV8tBGDN47TFDiBRV7yMO3M88ahPNp3-E/exec";
 lunchDataUrl += "?type=lunch&start="+todayStr+"&end="+twoWeeksStr;
 
 function getSchedules() {
