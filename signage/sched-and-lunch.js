@@ -11,12 +11,12 @@ var todayStr = today.toISOString().substr(0,10);
 var twoWeeks = new Date(d.getFullYear(), d.getMonth(), d.getDate()+14, 0, 0, 0, 0);
 var twoWeeksStr = twoWeeks.toISOString().substr(0,10);
 
-var schedDataUrl = "https://script.google.com/macros/s/AKfycbwNcl6DD2ioQidiBaQg4gJ2NDjUNLjCKlv6maVXmg5WgnaUgKkevgJmJXM4Z2qIhCbR/exec";
+var schedDataUrl = "https://script.google.com/macros/s/AKfycbzcJS4--QNpIWHkjV6BPfng0SBhouip7RVV8tBGDN47TFDiBRV7yMO3M88ahPNp3-E/exec";
 schedDataUrl += "?type=schedule&start="+todayStr+"&end="+twoWeeksStr;
 //console.log(schedDataUrl);
 //https://script.google.com/a/holliston.k12.ma.us/macros/s/AKfycbySq1-awpeZr2RLzsEizMJjBpgBvD8KFWc-VKGjV6JrcKTe3g/exec?type=schedule&start=2017-12-5&end=2017-12-19
 
-var lunchDataUrl = "https://script.google.com/macros/s/AKfycbwIfH0OUuUPFdfXIaPiMpUD6BeDf4R6Z36OhPfc3BVHYRuNIAFB8FtLEVOnZ4629grD/exec";
+var lunchDataUrl = "https://script.google.com/macros/s/AKfycbzcJS4--QNpIWHkjV6BPfng0SBhouip7RVV8tBGDN47TFDiBRV7yMO3M88ahPNp3-E/exec";
 lunchDataUrl += "?type=lunch&start="+todayStr+"&end="+twoWeeksStr;
 console.log(lunchDataUrl);
 //https://script.google.com/a/holliston.k12.ma.us/macros/s/AKfycbySq1-awpeZr2RLzsEizMJjBpgBvD8KFWc-VKGjV6JrcKTe3g/exec?type=lunch&start=2017-10-16   
