@@ -16,10 +16,10 @@ var schedulesReady = false;
 var lunchesReady = false;
 var lunchesData = null;
 
-var schedDataUrl = "https://script.google.com/a/holliston.k12.ma.us/macros/s/AKfycbySq1-awpeZr2RLzsEizMJjBpgBvD8KFWc-VKGjV6JrcKTe3g/exec";
+var schedDataUrl = "https://script.google.com/macros/s/AKfycbwNcl6DD2ioQidiBaQg4gJ2NDjUNLjCKlv6maVXmg5WgnaUgKkevgJmJXM4Z2qIhCbR/exec";
 schedDataUrl += "?type=schedule&start="+todayStr+"&end="+twoWeeksStr;
 
-var lunchDataUrl = "https://script.google.com/a/holliston.k12.ma.us/macros/s/AKfycbySq1-awpeZr2RLzsEizMJjBpgBvD8KFWc-VKGjV6JrcKTe3g/exec";
+var lunchDataUrl = "https://script.google.com/macros/s/AKfycbwIfH0OUuUPFdfXIaPiMpUD6BeDf4R6Z36OhPfc3BVHYRuNIAFB8FtLEVOnZ4629grD/exec";
 lunchDataUrl += "?type=lunch&start="+todayStr+"&end="+twoWeeksStr;
 
 function getSchedules() {
