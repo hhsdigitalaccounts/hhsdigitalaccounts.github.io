@@ -4,7 +4,7 @@
  */
 
 const ROLLOVER_TIME = 14; // When to start displaying the next day's info
-const API_URL = "https://script.google.com/macros/s/AKfycbwIfH0OUuUPFdfXIaPiMpUD6BeDf4R6Z36OhPfc3BVHYRuNIAFB8FtLEVOnZ4629grD/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzcJS4--QNpIWHkjV6BPfng0SBhouip7RVV8tBGDN47TFDiBRV7yMO3M88ahPNp3-E/exec";
 
 class Interface {
   async refresh(date) {
